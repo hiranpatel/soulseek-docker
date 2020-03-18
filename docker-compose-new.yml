@@ -8,6 +8,6 @@ services:
       - resize=auto
       - resolution=1280x720
     volumes:
-      -/Gmedia/containers/Soulseek/.SoulseekQt:/data/.SoulseekQt
-      -/Gmedia/Music/SoulDownloads:/data/Soulseek\ Downloads
-      -/Gmedia/containers/soulseek/Logs:/data/Soulseek\ Chat\ Logs
+      -/gmedia/containers/Soulseek/.SoulseekQt:/data/.SoulseekQt
+      -/gmedia/Music/SoulDownloads:/data/Soulseek\ Downloads
+      -/gmedia/containers/soulseek/Logs:/data/Soulseek\ Chat\ Logs
