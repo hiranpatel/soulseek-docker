@@ -1,0 +1,13 @@
+version: '2'
+services:
+  soulseek:
+    build: .
+    environment:
+      - pgid=1000
+      - puid=1000
+      - resize=auto
+      - resolution=1280x720
+    volumes:
+      -/Gmedia/containers/Soulseek/.SoulseekQt:/data/.SoulseekQt
+      -/Gmedia/Music/SoulDownloads:/data/Soulseek\ Downloads
+      -/Gmedia/containers/soulseek/Logs:/data/Soulseek\ Chat\ Logs
